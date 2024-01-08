@@ -1,5 +1,11 @@
+import UserCard from './components/userCard/UserCard';
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+		<>
+			<UserCard />
+		</>
+	);
 };
 
 export default App;
